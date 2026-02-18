@@ -183,7 +183,8 @@ h5 {
     margin-top: 100px;
 }
 .padding-bottom-top-120 {
-    padding: 140px 0;
+    /* padding: 250px 0; */
+    padding: 300px 0 140px 0;
 }
 
 /** Seperators for Headings **/

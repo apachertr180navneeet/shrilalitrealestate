@@ -23,4 +23,10 @@ class HomeController extends Controller
     {
         return view('web.home.gallery');
     }
+
+
+    public function contact()
+    {
+        return view('web.home.contact');
+    }
 }
