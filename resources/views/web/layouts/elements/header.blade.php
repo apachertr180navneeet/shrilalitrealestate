@@ -6,7 +6,7 @@
 				<div class="col-lg-3 d-none d-lg-block">
 					<div class="logo-top">
 						<a href="{{route('/')}}">
-							<img src="{{ asset('assets/web/images/logonew.png') }}" alt="logo" />
+							<img src="{{ asset('assets/web/images/lplogo1.png') }}" alt="logo" />
 						</a>
 					</div>
 				</div>
@@ -24,7 +24,7 @@
 	<div class="navbar navbar-expand-lg bsnav bsnav-sticky bsnav-sticky-slide">
 		<div class="container">
 			<div class="bg-nav">
-				<a class="navbar-brand" href=""><img src="{{ asset('assets/web/images/logonew.png') }}" alt="logo"></a>
+				<a class="navbar-brand" href=""><img src="{{ asset('assets/web/images/lplogo1.png') }}" alt="logo"></a>
 				<button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse">
 					<ul class="navbar-nav navbar-mobile">

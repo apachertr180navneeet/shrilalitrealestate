@@ -1,6 +1,103 @@
 /* ================================= */
 /* ----------- COLORS CSS ---------- */
 /* ================================= */
-:root{
-    --id-default-color: #ed2a28;
+:root {
+    /* Golden brand theme */
+    --id-default-color: #c79a3b;
+
+    /* Supporting palette */
+    --id-theme-navy: #121d3a;
+    --id-theme-navy-soft: #1d2a52;
+    --id-theme-gold-dark: #8f6a22;
+    --id-theme-gold-light: #e1c27a;
+    --id-theme-gray: #f3f3f3;
+    --id-theme-text: #676767;
+    --id-theme-white: #ffffff;
+}
+
+/* Header + footer bars */
+.header-top-transparent,
+.footer-top,
+.footer-bottom,
+footer {
+    background: var(--id-theme-navy);
+}
+
+/* Main nav area */
+#main_header .navbar,
+.header-menu-bottom .bsnav,
+.bg-transparent .bg-nav {
+    background: var(--id-theme-navy-soft);
+}
+
+/* Golden accent lines on header/footer */
+#main_header,
+.footer-top,
+.footer-bottom,
+footer {
+    border-color: rgba(199, 154, 59, 0.35);
+}
+
+/* Links on dark bars */
+.navbar .nav-link,
+.navbar .nav-link:hover,
+.navbar .nav-item.active .nav-link,
+.socials li a {
+    color: var(--id-theme-white);
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-link:focus {
+    color: var(--id-theme-gold-light);
+}
+
+.socials li a {
+    border-color: rgba(255, 255, 255, 0.45);
+}
+
+.socials li a:hover,
+.socials li a:focus {
+    background: var(--id-default-color);
+    border-color: var(--id-default-color);
+    color: #111111;
+}
+
+/* Primary actions and theme highlights */
+.btn_fill,
+.bg-color-blue,
+.bg-color-red {
+    background: var(--id-default-color);
+    color: var(--id-theme-white);
+}
+
+.btn_fill:hover,
+.btn_fill:focus {
+    background: var(--id-theme-gold-dark);
+    color: var(--id-theme-white);
+}
+
+.color_red {
+    color: var(--id-default-color);
+}
+
+a:hover,
+a:focus,
+.link_arrow:hover::after,
+.link_arrow:focus::after {
+    color: var(--id-default-color);
+}
+
+/* Golden loader */
+.loader {
+    background: linear-gradient(135deg, var(--id-default-color), var(--id-theme-gold-dark));
+}
+
+.cssload-thecube .cssload-cube::before {
+    background-color: var(--id-theme-navy-soft);
+}
+
+/* Light section base */
+.bg_light,
+.bg-color-dark-gray {
+    background: var(--id-theme-gray);
 }

@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </li>
-            {{--  <!-- SLIDE  -->
+            <!-- SLIDE  -->
             <li>
                 <img src="{{ asset('assets/web/images/banner-7.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover"
                     class="rev-slidebg">
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-            </li>  --}}
+            </li>
         </ul>
     </div>
 </section>
