@@ -24,6 +24,8 @@ Route::get('/', [HomeController::class, 'index'])->name('/');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/about-us',[HomeController::class, 'about_us'])->name('aboutus');
 Route::get('/gallery',[HomeController::class, 'gallery'])->name('gallery');
+Route::get('/service',[HomeController::class, 'service'])->name('service');
+Route::get('/service-detal/{id}',[HomeController::class, 'serviceDetail'])->name('service.detail');
 Route::get('/contact',[HomeController::class, 'contact'])->name('contact');
 
 Route::name('admin.')->prefix('admin')->group(function () {

@@ -23,6 +23,17 @@ class HomeController extends Controller
         return view('web.home.gallery');
     }
 
+    public function service()
+    {
+        return view('web.home.service');
+    }
+
+
+    public function serviceDetail($id)
+    {
+        return view('web.home.service_detail');
+    }
+
 
     public function contact()
     {

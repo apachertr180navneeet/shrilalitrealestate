@@ -10,7 +10,7 @@
       <div class="line_4"></div>
       <div class="line_5"></div>
       <div class="line_6"></div>
-      <a href="index-11.html">home</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="contact-us.html">Contact us</a> 
+      <a href="{{route('/')}}">home</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="{{route('contact')}}">Contact us</a> 
     </div>
   </div>
 </div>
