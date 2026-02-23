@@ -12,9 +12,9 @@
         <link rel="preconnect" href="https://cdn.lordicon.com" crossorigin>
         <link rel="preconnect" href="https://maps.googleapis.com" crossorigin>
 
-        <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/master.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('assets/web/css/color/color-red.css') }}" id="color">
-        <link rel="shortcut icon" href="{{ asset('assets/web/images/short_icon.png') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/web/css/master.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/web/css/color/color-red.css') }}" id="color">
+        <link rel="shortcut icon" href="{{ asset('public/assets/web/images/short_icon.png') }}">
 
         <style>
             .color-picker {
@@ -49,38 +49,38 @@
         </div>
 
         <!--===== REQUIRED JS =====-->
-        <script defer src="{{ asset('assets/web/js/jquery-3.7.1.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/bootstrap.bundle.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/bsnav.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/jquery.appear.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/owl.carousel.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/parallaxie.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/jquery.fancybox.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/cubeportfolio.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/jquery-3.7.1.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/bootstrap.bundle.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/bsnav.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/jquery.appear.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/owl.carousel.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/parallaxie.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/jquery.fancybox.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/cubeportfolio.min.js') }}"></script>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
-        <script defer src="{{ asset('assets/web/js/videobox/video.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/datepicker.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/dropzone.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/wow.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/range-Slider.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/selectbox-0.2.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/scrollreveal.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/jquery-countTo.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/jquery.typewriter.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/death.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/videobox/video.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/datepicker.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/dropzone.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/wow.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/range-Slider.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/selectbox-0.2.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/scrollreveal.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/jquery-countTo.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/jquery.typewriter.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/death.min.js') }}"></script>
         <script defer src="https://cdn.lordicon.com/lordicon.js"></script>
 
         <!-- Revolution Slider -->
-        <script defer src="{{ asset('assets/web/js/themepunch/jquery.themepunch.tools.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/themepunch/jquery.themepunch.revolution.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/themepunch/revolution.extension.layeranimation.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/themepunch/revolution.extension.navigation.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/themepunch/revolution.extension.parallax.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/themepunch/revolution.extension.slideanims.min.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/themepunch/revolution.extension.video.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/themepunch/jquery.themepunch.tools.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/themepunch/jquery.themepunch.revolution.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/themepunch/revolution.extension.layeranimation.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/themepunch/revolution.extension.navigation.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/themepunch/revolution.extension.parallax.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/themepunch/revolution.extension.slideanims.min.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/themepunch/revolution.extension.video.min.js') }}"></script>
 
-        <script defer src="{{ asset('assets/web/js/functions.js') }}"></script>
-        <script defer src="{{ asset('assets/web/js/form.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/functions.js') }}"></script>
+        <script defer src="{{ asset('public/assets/web/js/form.js') }}"></script>
 
         <!-- Load map stack only when map exists on the page -->
         <script defer>
@@ -102,9 +102,9 @@
                     }
 
                     loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyAOBKD6V47-g_3opmidcmFapb3kSNAR70U')
-                        .then(function () { return loadScript("{{ asset('assets/web/js/gmaps.js') }}"); })
-                        .then(function () { return loadScript("{{ asset('assets/web/js/custom-map.js') }}"); })
-                        .then(function () { return loadScript("{{ asset('assets/web/js/contact.js') }}"); })
+                        .then(function () { return loadScript("{{ asset('public/assets/web/js/gmaps.js') }}"); })
+                        .then(function () { return loadScript("{{ asset('public/assets/web/js/custom-map.js') }}"); })
+                        .then(function () { return loadScript("{{ asset('public/assets/web/js/contact.js') }}"); })
                         .catch(function () {
                             // Ignore map loading errors so non-map pages are unaffected.
                         });
