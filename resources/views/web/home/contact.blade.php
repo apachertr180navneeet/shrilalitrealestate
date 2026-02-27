@@ -1,111 +1,221 @@
-@extends('web.layouts.app')
-@section('content')
-
-<!--===== PAGE TITLE =====-->
-<div class="page-title page-main-section parallaxie">
-  <div class="container padding-bottom-top-120 text-uppercase text-center">
-    <div class="main-title">
-      <h1>Contact us</h1>
-      <h5>10 Years Of Experience!</h5>
-      <div class="line_4"></div>
-      <div class="line_5"></div>
-      <div class="line_6"></div>
-      <a href="{{route('/')}}">home</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="{{route('contact')}}">Contact us</a> 
-    </div>
-  </div>
-</div>
-<!--===== #/PAGE TITLE =====-->
-
-
-<!--===== CONTACT US =====-->
-<section id="contact-us">
-	<div class="container">
-      <div class="row padding">
-      	
-        <div class="col-md-8">
-        	<div class="bottom40">
-                <h2 class="text-uppercase">Send us<span class="color_red"> a message </span></h2>
-                <div class="line_1"></div>
-                <div class="line_2"></div>
-                <div class="line_3"></div>
-              </div>
-        	<div class="agent-p-form p-t-30">
-            
-            <div class="row">
-            	<form class="callus padding-bottom"  id="contact-form" onSubmit="return false">
-            
-                     <div class="form-group">
-                         <div id="result">
-                         </div>
-                     </div>
-            
-            	<div class="col-md-12">
-                    <div class="single-query">
-                        <input type="text" class ="keyword-input" placeholder="Name" name="name" id="name">
-                    </div>
-                </div>
-               <div class="col-md-12">    
-                    <div class="single-query">
-                        <input type="text" class ="keyword-input" placeholder="Phone" name="phone" id="phone">
-                    </div>
-               </div>
-               <div class="col-md-12">     
-                    <div class="single-query">
-                        <input type="email" class ="keyword-input" placeholder="E - mail" name="email" id="email">
-                    </div>
-               </div>
-               <div class="col-md-12">
-                    <div class="single-query">
-                        <textarea name="message" placeholder="Message" id="message"></textarea>
-                    </div>
-               </div>
-                 <div class="col-md-12">   
-                      <button type="submit" class="btn_fill" id="btn_submit" name="btn_submit">Submit</button>
-                 </div>     
-                    </form>
-        
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-md-4">
-        	<div class="bottom40">
-                <h2 class="text-uppercase">get in<span class="color_red"> touch</span></h2>
-                <div class="line_1"></div>
-                <div class="line_2"></div>
-                <div class="line_3"></div>
-              </div>
-              
-        	<div class="agent-p-contact p-t-30">
-            <div class="agetn-contact-2">
-              <p><i class="icon-telephone114"></i> (+01) 34 56 7890</p>
-              <a href="#.">
-                <p><i class=" icon-icons142"></i> info@ideahomes.com</p>
-              </a>
-              <a href="#.">
-                <p><i class="icon-browser2"></i>www.ideahomes.com</p>
-              </a>
-              <p><i class="icon-icons74"></i> Idea Homes, Merrick Way, FL 12345 Australia</p>
-            </div>
-            <ul class="socials">
-              <li><a href="#."><i class="fa-brands fa-facebook-f"></i></a></li>
-              <li><a href="#."><i class="fa-brands fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-            </ul>
-        </div>
-       
-      </div>
-    </div>
-    
-    <div class="contact">
-      <div id="map"></div>
-    </div>
-</section>
-<!--===== #/CONTACT US =====-->
-
-@endsection
-@section('script')
-
+@extends('web.layouts.app')
+
+@section('content')
+
+
+
+<!--===== PAGE TITLE =====-->
+
+<div class="page-title page-main-section parallaxie">
+
+  <div class="container padding-bottom-top-120 text-uppercase text-center">
+
+    <div class="main-title">
+
+      <h1>Contact us</h1>
+
+      <h5>10 Years Of Experience!</h5>
+
+      <div class="line_4"></div>
+
+      <div class="line_5"></div>
+
+      <div class="line_6"></div>
+
+      <a href="{{route('/')}}">home</a><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="{{route('contact')}}">Contact us</a> 
+
+    </div>
+
+  </div>
+
+</div>
+
+<!--===== #/PAGE TITLE =====-->
+
+
+
+
+
+<!--===== CONTACT US =====-->
+
+<section id="contact-us">
+
+	<div class="container">
+
+      <div class="row padding">
+
+      	
+
+        <div class="col-md-8">
+
+        	<div class="bottom40">
+
+                <h2 class="text-uppercase">Send us<span class="color_red"> a message </span></h2>
+
+                <div class="line_1"></div>
+
+                <div class="line_2"></div>
+
+                <div class="line_3"></div>
+
+              </div>
+
+        	<div class="agent-p-form p-t-30">
+
+            
+
+            <div class="row">
+
+            	<form class="callus padding-bottom"  id="contact-form" onSubmit="return false">
+
+            
+
+                     <div class="form-group">
+
+                         <div id="result">
+
+                         </div>
+
+                     </div>
+
+            
+
+            	<div class="col-md-12">
+
+                    <div class="single-query">
+
+                        <input type="text" class ="keyword-input" placeholder="Name" name="name" id="name">
+
+                    </div>
+
+                </div>
+
+               <div class="col-md-12">    
+
+                    <div class="single-query">
+
+                        <input type="text" class ="keyword-input" placeholder="Phone" name="phone" id="phone">
+
+                    </div>
+
+               </div>
+
+               <div class="col-md-12">     
+
+                    <div class="single-query">
+
+                        <input type="email" class ="keyword-input" placeholder="E - mail" name="email" id="email">
+
+                    </div>
+
+               </div>
+
+               <div class="col-md-12">
+
+                    <div class="single-query">
+
+                        <textarea name="message" placeholder="Message" id="message"></textarea>
+
+                    </div>
+
+               </div>
+
+                 <div class="col-md-12">   
+
+                      <button type="submit" class="btn_fill" id="btn_submit" name="btn_submit">Submit</button>
+
+                 </div>     
+
+                    </form>
+
+        
+
+            </div>
+
+          </div>
+
+        </div>
+
+        
+
+        <div class="col-md-4">
+
+        	<div class="bottom40">
+
+                <h2 class="text-uppercase">get in<span class="color_red"> touch</span></h2>
+
+                <div class="line_1"></div>
+
+                <div class="line_2"></div>
+
+                <div class="line_3"></div>
+
+              </div>
+
+              
+
+        	<div class="agent-p-contact p-t-30">
+
+            <div class="agetn-contact-2">
+
+              <p><i class="icon-telephone114"></i> +91 82334 11000</p>
+
+              <a href="#.">
+
+                <p><i class=" icon-icons142"></i> shrilalitprivatelimited@gmail.com</p>
+
+              </a>
+
+              {{--  <a href="#.">
+
+                <p><i class="icon-browser2"></i>www.ideahomes.com</p>
+
+              </a>  --}}
+
+              <p><i class="icon-icons74"></i> Idea Homes, Merrick Way, FL 12345 Australia</p>
+
+            </div>
+
+            <ul class="socials">
+
+              <li><a href="#."><i class="fa-brands fa-facebook-f"></i></a></li>
+
+              <li><a href="#."><i class="fa-brands fa-twitter"></i></a></li>
+
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+
+              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+
+            </ul>
+
+        </div>
+
+       
+
+      </div>
+
+    </div>
+
+    
+
+    <div class="contact">
+
+      <div id="map"></div>
+
+    </div>
+
+</section>
+
+<!--===== #/CONTACT US =====-->
+
+
+
+@endsection
+
+@section('script')
+
+
+
 @endsection
